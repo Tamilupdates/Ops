@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/TOICTONY/Ops /MW-IAN-BOT
+  git clone https://github.com/TOICTONY/Ops.git /MW-IAN-BOT
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /MW-IAN-BOT
