@@ -96,7 +96,7 @@ else:
     ON_HEROKU = True
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'mw-file-bot'
-URL = "https://mw-file-bot-ac32422313eb.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+URL = "https://mw-file-bot-ac32422313eb.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://mw-file-bot-ac32422313eb.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
@@ -109,7 +109,7 @@ if 'DYNO' in environ:
     APP_NAME = str(getenv('APP_NAME'))
 
 else:
-    ON_HEROKU = True
+    ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://mw-file-bot-ac32422313eb.herokuapp.com/".format(FQDN)
