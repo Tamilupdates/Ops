@@ -87,7 +87,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 
 
 # Online Stream and Download
-NO_PORT = bool(environ.get('NO_PORT', True))
+NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -110,7 +110,7 @@ if 'DYNO' in environ:
 
 else:
     ON_HEROKU = True
-HAS_SSL=bool(getenv('HAS_SSL',True))
+HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://mw-file-bot-ac32422313eb.herokuapp.com/".format(FQDN)
 else:
