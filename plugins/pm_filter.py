@@ -78,8 +78,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/WD_Topic_Group>Topic Group</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⟱</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/WD_Topic_Group")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+FTzvKjy-DU4zNGU1>IAN MOVIE Group</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⟱</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+FTzvKjy-DU4zNGU1")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1220,7 +1220,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=link.invite_link),
                  InlineKeyboardButton("𝐕𝐢𝐞𝐰 𝐒𝐭𝐚𝐭𝐮𝐬", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://WD_Topic_Group")
+                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://t.me/+FTzvKjy-DU4zNGU1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1245,7 +1245,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=link.invite_link),
                  InlineKeyboardButton("𝐕𝐢𝐞𝐰 𝐒𝐭𝐚𝐭𝐮𝐬", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://telegram.me/WD_Topic_Group")
+                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://t.me/+FTzvKjy-DU4zNGU1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1336,8 +1336,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('◆ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ◆', url="https://t.me/WD_Topic_Group")
+                    InlineKeyboardButton('😎 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 😎', url=CHNL_LNK),
+                    InlineKeyboardButton('◆ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ◆', url="https://t.me/MoviiWrld")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about') 
@@ -1709,7 +1709,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data="help"),
-                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/Farooq_is_KING")
+                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/MoviiWrld")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1725,7 +1725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "song":
             btn = [[
                     InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data="help"),
-                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/Farooq_is_KING")
+                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/MoviiWrld")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1766,7 +1766,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sticker":
             btn = [[
                     InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data="help"),
-                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/Farooq_is_KING")
+                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="telegram.me/MoviiWrld")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
