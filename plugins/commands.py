@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url="https://t.me/WD_Topic_Group"),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+PrpejeNqIHQwOTVl")
+                    InlineKeyboardButton('❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url="https://t.me/MoviiWrld"),
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+FTzvKjy-DU4zNGU1")
                 ],[
                     InlineKeyboardButton('〶𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥〶', url=CHNL_LNK)
                   ]]
@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+PrpejeNqIHQwOTVl")
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+FTzvKjy-DU4zNGU1")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
@@ -98,7 +98,7 @@ async def start(client, message):
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+PrpejeNqIHQwOTVl")
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/+FTzvKjy-DU4zNGU1")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
@@ -156,7 +156,7 @@ async def start(client, message):
                                 InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                                 InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫', url="https://t.me/Farooq_is_KING")
+                                InlineKeyboardButton('𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫', url="https://t.me/MoviiWrld")
                             ],
                             [
                                 InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -178,7 +178,7 @@ async def start(client, message):
                           InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                           InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/Farooq_is_KING")
+                          InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/MoviiWrld")
                          ],[ 
                             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
                             ]
@@ -337,7 +337,7 @@ async def start(client, message):
                       InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/Farooq_is_KING")
+                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/MoviiWrld")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -403,7 +403,7 @@ async def start(client, message):
                       InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/Farooq_is_KING")
+                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/MoviiWrld")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -413,7 +413,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@Opleech  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@MoviiWrld  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -434,7 +434,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@Opleech  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@MoviiWrld  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -466,7 +466,7 @@ async def start(client, message):
               InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
               InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/Farooq_is_KING")
+              InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/MoviiWrld")
              ],
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
