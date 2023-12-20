@@ -93,7 +93,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = environ.get('APP_NAME', 'mw-file-bot')
 else:
-    ON_HEROKU = True
+    ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'mw-file-bot'
 URL = "https://mw-file-bot-ac32422313eb.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
