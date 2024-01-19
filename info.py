@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '13209296'))
-API_HASH = environ.get('API_HASH', '7f94729e7d7f60aff21bb986bc068bd9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6764195207:AAFcE7NSH2Vrc_KUeYdE637HXmQeTOSYgng")
+API_ID = int(environ.get('API_ID', '26300135'))
+API_HASH = environ.get('API_HASH', 'd0cd144d27572e2a9aae50369b001244')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6765906744:AAFIQwCaxzIx0o2TNhbGalFsQJhbSK5EF3A")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,8 +27,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9133dc596eabc73750774.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '683443719').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001201871242').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6432228552').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002016224050').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -36,33 +36,33 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001201871242')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001201871242')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002016224050')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002016224050')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MoviiWrld:MoviiWrld01@cluster0.lloilyc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Smilemovie:SmilemovieSX@cluster0.qovxeob.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files1')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkme.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c502971db868c47277255aa804d1b9e064bab1f5')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Krownlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bfd24e59479153ff5c8b92621323cd38adb4dd36')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Moviiwrld')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviiwrld')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Moviiwrld')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Kabali_Uploads')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Kabali_Uploads')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Kabali_Uploads')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello and Hello ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001828135863'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MoviiWrld')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002020868513'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Kabali_Uploads')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -91,11 +91,11 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'mw-file-bot')
+    APP_NAME = environ.get('APP_NAME')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'mw-file-bot'
+FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
 URL = "https://mw-file-bot-ac32422313eb.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://mw-file-bot-ac32422313eb.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
