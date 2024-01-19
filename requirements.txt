@@ -1,4 +1,4 @@
-pyrogram>=2.0.106 
+pyrogram>=2.0.30
  tgcrypto 
  pymongo[srv]==3.12.3 
  motor==2.5.1 
@@ -11,12 +11,11 @@ pyrogram>=2.0.106
  datetime 
  pytz 
  aiohttp
-asyncio==3.4.3 
 
 #---master---# 
  #Telethroid==0.0.10 
  PyLeaves==1.0.2 
-  Wikipedia
+  
   
  
  #---ytdl----# 
@@ -27,7 +26,7 @@ yt-dlp
 youtube-dl
 requests 
   
-openai==0.25.0
+
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
@@ -56,7 +55,7 @@ apscheduler
 pyshorteners
 pyromod
 colorama
+openai==0.25.0
 
 
 
-  
