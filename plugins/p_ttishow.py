@@ -41,7 +41,7 @@ async def save_group(bot, message):
                     InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=GRP_LNK),
                     InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                  ],[
-                    InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/MoviiWrld")
+                    InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="t.me/Kabali_Uploads")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -89,8 +89,8 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩',url="https://t.me/MoviiWrld"),
-            InlineKeyboardButton('𝐎𝐰𝐧𝐞𝐫', url="https://t.me/MoviiWrld")
+            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩',url="https://t.me/Kabali_Uploads"),
+            InlineKeyboardButton('𝐎𝐰𝐧𝐞𝐫', url="https://t.me/Kabali_Uploads")
         ],[
             InlineKeyboardButton('𝐔𝐬𝐞 𝐦𝐞 𝐇𝐞𝐫𝐞', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
