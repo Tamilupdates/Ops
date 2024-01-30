@@ -36,9 +36,9 @@ from plugins import web_server
 
 import asyncio
 from pyrogram import idle
-from opleechbot import OpleechAngelBot
+from lazybot import OpleechAngelBot
 from util.keepalive import ping_server
-from opleechbot.clients import initialize_clients
+from lazybot.clients import initialize_clients
 
 
 ppath = "plugins/*.py"
