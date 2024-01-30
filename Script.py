@@ -208,7 +208,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 🚯 𝐃𝐨𝐧𝐭 𝐔𝐬𝐞 ☞ ':(!,./)"""
 
-    NORSLTS = """
+NORSLTS = """ 
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
 𝗜𝗗 <b>: {}</b>
@@ -217,11 +217,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ 
-<b>══════════════════
-🗂 {file_name}
-═════════════════════ 
-𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞 :- @Kabali_Uploads</b>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+<b> Size ⚙️: {file_size}</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
